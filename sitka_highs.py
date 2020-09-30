@@ -17,9 +17,6 @@ with open(filename) as f:
         dates.append(current_date)
         highs.append(high)
 
-print(highs)
-print(dates)
-
 # Plot the high temeperatures
 plt.style.use('seaborn')
 fig, ax = plt.subplots()
